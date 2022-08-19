@@ -9001,59 +9001,32 @@ a[aria-describedby=footnotes-label]:after {
   background-color: #0b0c0c;
 }
 
-.app-heading-anchor {
-  font-family: system-ui, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-decoration: underline;
-  text-decoration-thickness: max(1px, .0625rem);
-  text-underline-offset: 0.1em;
-}
-@media print {
-  .app-heading-anchor {
-    font-family: sans-serif;
-  }
-}
-.app-heading-anchor:hover {
-  text-decoration-thickness: max(3px, .1875rem, .12em);
-  -webkit-text-decoration-skip-ink: none;
-  text-decoration-skip-ink: none;
-  -webkit-text-decoration-skip: none;
-  text-decoration-skip: none;
-}
-.app-heading-anchor:focus {
-  outline: 3px solid transparent;
-  color: #0b0c0c;
-  background-color: #ffdd00;
-  box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
-  text-decoration: none;
-}
-.app-heading-anchor:link, .app-heading-anchor:visited {
+.govuk-link.app-link--heading:link, .govuk-link.app-link--heading:visited {
   color: #0b0c0c;
 }
 @media print {
-  .app-heading-anchor:link, .app-heading-anchor:visited {
+  .govuk-link.app-link--heading:link, .govuk-link.app-link--heading:visited {
     color: #000000;
   }
 }
-.app-heading-anchor:hover {
+.govuk-link.app-link--heading:hover {
   color: rgba(11, 12, 12, 0.99);
 }
-.app-heading-anchor:active, .app-heading-anchor:focus {
+.govuk-link.app-link--heading:active, .govuk-link.app-link--heading:focus {
   color: #0b0c0c;
 }
 @media print {
-  .app-heading-anchor:active, .app-heading-anchor:focus {
+  .govuk-link.app-link--heading:active, .govuk-link.app-link--heading:focus {
     color: #000000;
   }
 }
-.app-heading-anchor:not(:hover):not(:active) {
+.govuk-link.app-link--heading:not(:hover):not(:active) {
   text-decoration: none;
 }
-.app-heading-anchor:hover {
+.govuk-link.app-link--heading:hover {
   text-decoration: none;
 }
-.app-heading-anchor:hover:after, :target .app-heading-anchor:after {
+.govuk-link.app-link--heading:hover:after, :target .govuk-link.app-link--heading:after {
   color: #505a5f;
   content: "#";
   font-variant: all-small-caps;
